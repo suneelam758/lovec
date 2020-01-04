@@ -1,0 +1,93 @@
+body{
+    background: url('lovee.jpg');
+    user-select: none;
+}
+input{
+height: 50px;
+background: rgba(0, 0, 0, 0.4);
+border: 1px solid white;
+margin-left: 10px;
+color: white;
+font-size: 20px;
+}
+span{
+color: rgb(17, 3, 3);
+margin-top: 100px;
+font-size: 30px;
+font-weight: 800;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+cursor: pointer;
+user-select: none;
+border: 3px solid rgb(7, 10, 7);
+background: rgb(199, 30, 30);
+box-shadow: 0 0 10px rgb(221, 99, 99), 0 0 10px rgb(221, 99, 99), 0 0 20px rgb(221, 99, 99);
+}
+#box{
+    text-align: center;
+}
+#im1{
+    height: 350px;
+     width: 450px;
+     animation: lubdub 1s ease-in-out infinite;
+     display: none;
+     margin-left: 33.4%;
+}
+@keyframes lubdub{
+    100%{
+        opacity: 0.7;
+    }
+}
+#im2{
+    height: 350px;
+     width: 450px;
+}
+#in3{
+    width: 300px;
+    height: 50px;
+background: rgba(0, 0, 0, 0.7);
+border: 1px solid white;
+margin-left: 40%;
+color: white;
+font-size:48px;
+animation: ss 2s infinite linear;
+
+}
+@keyframes ss{
+    10%{color: rosybrown;}
+    50%{color: rgb(230, 10, 10);}
+    70%{column-rule: whitesmoke;}
+    100%{color: khaki;}
+}
+#load{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 2px solid white;
+    margin-top: -500px;
+    margin-left: 80%;
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    animation: round 2s linear infinite;
+}
+@keyframes round{
+    100%{transform: rotate(360deg);}
+}
+a{
+    margin-top: -490px;
+    margin-left: 20px;
+    position: fixed;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    animation: aa 10s linear infinite;
+}
+@keyframes aa{
+    10%{color: rosybrown; background: rgb(31, 30, 30);}
+    50%{color: rgb(230, 10, 10);background: black;}
+    70%{column-rule: whitesmoke;background: rgb(41, 2, 2);}
+    100%{color: khaki;background: rgb(1, 26, 80);}
+}
+#zz{
+    display: none;
+}
